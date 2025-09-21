@@ -60,7 +60,7 @@ local fonts = {
         name = "templeos",
         weight = "regular",
         style = "normal",
-        link = "https://raw.githubusercontent.com/judghementday2/bypass/refs/heads/main/Templeos.ttf",
+        link = "https://github.com/mainstreamed/clones/raw/refs/heads/main/synapse/Templeos.ttf",
     }),
     proggytiny = create_font:register("ENHANCEMENTS/MENU/FONTS", {
         name = "proggytiny",
