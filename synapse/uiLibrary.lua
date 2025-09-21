@@ -66,7 +66,7 @@ local fonts = {
         name = "proggytiny",
         weight = "regular",
         style = "normal",
-        link = "https://raw.githubusercontent.com/judghementday2/bypass/refs/heads/main/ProggyTiny.ttf",
+        link = "https://github.com/mainstreamed/clones/raw/refs/heads/main/synapse/ProggyTiny.ttf",
     }),
     medodica = create_font:register("ENHANCEMENTS/MENU/FONTS", {
         name = "medodica",
