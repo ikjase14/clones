@@ -54,7 +54,7 @@ local fonts = {
         name = "smallest pixel",
         weight = "regular",
         style = "normal",
-        link = "https://raw.githubusercontent.com/judghementday2/bypass/refs/heads/main/smallest_pixel-7.ttf",
+        link = "https://github.com/mainstreamed/clones/raw/refs/heads/main/synapse/smallest_pixel-7.ttf",
     }),
     templeos = create_font:register("ENHANCEMENTS/MENU/FONTS", {
         name = "templeos",
