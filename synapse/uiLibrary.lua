@@ -72,7 +72,7 @@ local fonts = {
         name = "medodica",
         weight = "regular",
         style = "normal",
-        link = "https://raw.githubusercontent.com/judghementday2/bypass/refs/heads/main/MedodicaRegular.ttf",
+        link = "https://github.com/mainstreamed/clones/raw/refs/heads/main/synapse/MedodicaRegular.ttf",
     }),
 };
 --
