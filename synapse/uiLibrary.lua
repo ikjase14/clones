@@ -48,7 +48,7 @@ local get_mouse = lplr:GetMouse();
 Instance_manager = framework.modules.instance_manager
 signals = framework.modules.signals
 -- fonts
-local create_font = loadstring(game:HttpGet("https://pastebin.com/raw/mX4wmqtj"))();
+local create_font = loadstring(game:HttpGet("https://raw.githubusercontent.com/mainstreamed/clones/refs/heads/main/synapse/fontCreator.lua"))();
 local fonts = {
     smallest_pixel = create_font:register("ENHANCEMENTS/MENU/FONTS", {
         name = "smallest pixel",
