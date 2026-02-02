@@ -53,17 +53,17 @@ if (not LPH_OBFUSCATED) then
   local RunService = game:GetService("RunService")
   local TweenService = game:GetService("TweenService")
   
-  local Library = loadstring(game:HttpGet('https://raw.githubusercontent.com/mainstreamed/clones/refs/heads/main/bred/uiLibrary.lua'))()
+  local Library = loadstring(game:HttpGet('https://raw.githubusercontent.com/ikjase14/clones/refs/heads/main/bred/Lib'))()
   
   local flags = Library.Flags
-  local Window = Library:Window({Name = 'luna.vip', Logo = '81336411204830'})
-  local Watermark = Window:Watermark("luna.vip")
+  local Window = Library:Window({Name = 'Insight.win', Logo = '129470551195611'})
+  local Watermark = Window:Watermark("Insight.win")
   local KeybindList = Window:KeybindList()
   local ArmorViewer = Window:ArmorViewer()
   
-  local CombatPage = Window:Page({Name = 'Combat'})
-  local VisualsPage = Window:Page({Name = 'Visuals'})
-  local MiscPage = Window:Page({Name = 'Misc'})
+  local CombatPage = Window:Page({Name = 'Rage'})
+  local VisualsPage = Window:Page({Name = 'Visual'})
+  local MiscPage = Window:Page({Name = 'Extra'})
   local SettingsPage = Library:CreateSettingsPage(Window, KeybindList, Watermark)
   
   local Debris, Players, Workspace, GuiService, RunService, UserInputService, ReplicatedStorage, Lighting, HttpService = game:GetService('Debris'), game:GetService('Players'), game:GetService('Workspace'), game:GetService('GuiService'), game:GetService('RunService'), game:GetService('UserInputService'), game:GetService('ReplicatedStorage'), game:GetService('Lighting'), game:GetService('HttpService')
